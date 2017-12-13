@@ -10,6 +10,9 @@ name = "pypi"
 gunicorn = "*"
 requests = "*"
 Flask = "*"
+bokeh = "*"
+pandas = "*"
+simplejson = "*"
 
 
 [dev-packages]
