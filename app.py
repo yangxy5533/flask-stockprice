@@ -37,7 +37,7 @@ def plot_price():
     return script,div 
 
 
-@app.route('/index', methods=['GET','POST'])
+@app.route('/', methods=['GET','POST'])
 def index():
     if request.method == 'GET':
         return render_template('index.html')

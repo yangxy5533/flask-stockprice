@@ -10,7 +10,7 @@ name = "pypi"
 gunicorn = "*"
 requests = "*"
 Flask = "*"
-bokeh = "*"
+bokeh = "==0.12.7"
 pandas = "*"
 simplejson = "*"
 
